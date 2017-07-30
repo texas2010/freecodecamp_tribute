@@ -1,2 +1,2 @@
 # freecodecamp_tribute
-freecodecamp tribute project
+freeCodeCamp Tribute Page

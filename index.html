@@ -1,8 +1,629 @@
-<!doctype html>
-<html>
-  <head>
-    <title>freeCodeCamp Tribute Page</title>
-  </head>
-  <body>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>freeCodeCamp Tribute Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <style>
+      .link-box {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+      }
+      .source-button {
+        margin-bottom: 100px;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Theodore Roosevelt</h1>
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="thumbnail">
+              <img src="http://historycms.house.gov/uploadedImages/Historical_Highlights/1901-1950/teddy-display.jpg" alt="image of Theodore Roosevelt">
+              <div class="caption">
+                <p class="text-center">image of Theodore Roosevelt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="text-center">His Timeline</h2>
+          <div>
+            <p><span><strong>1858</strong></span></p>
+            <ul>
+              <li>
+                <p>October 27 - Born at 28 East 20th Street, New York, NY to Theodore Sr. and Martha ("Mittie") Bulloch Roosevelt.
+                  He was the second child of four (sister Anna "Bamie" born 1855)</p>
+              </li>
+            </ul>
+            <p><strong>1860-61</strong></p>
+            <ul>
+              <li>
+                <p>Brother Elliot (1860) and sister Corinne (1861) born</p>
+              </li>
+            </ul>
+            <p><strong>1870</strong></p>
+            <ul>
+              <li>
+                <p>Father helps found American Museum of Natural History</p>
+              </li>
+              <li>
+                <p>Creates "Roosevelt Museum of Natural History" in his bedroom</p>
+              </li>
+              <li>
+                <p>Begins intense physical fitness regime; continued throughout life</p>
+              </li>
+              <li>
+                <p>May 12 to May 25 - Goes on a tour of Europe with his family</p>
+              </li>
+            </ul>
+            <p><strong>1871</strong></p>
+            <ul>
+              <li>
+                <p>July 17 - Grandfather Cornelius Van Schaak Roosevelt dies</p>
+              </li>
+              <li>
+                <p>Receives first pair of eyeglasses at age 13</p>
+              </li>
+            </ul>
+            <p><strong>1872-73</strong></p>
+            <ul>
+              <li>
+                <p>October - Family embarks on another trip abroad; travels include Egypt and the Holy Land</p>
+              </li>
+              <li>
+                <p>Collects animal specimens from North Africa and Middle East to bring home</p>
+              </li>
+              <li>
+                <p>Receives a shotgun for his 14<sup>th</sup> birthday</p>
+              </li>
+              <li>
+                <p>May - Stays in Germany with brother Elliot to study language</p>
+              </li>
+              <li>
+                <p>November 5 - Returns home to New York</p>
+              </li>
+            </ul>
+            <p><strong>1874</strong></p>
+            <ul>
+              <li>
+                <p>Edith Carow joins Roosevelt family for summer trip</p>
+              </li>
+            </ul>
+            <p><strong>1876-77</strong></p>
+            <ul>
+              <li>
+                <p>September - Begins education at Harvard University</p>
+              </li>
+              <li>
+                <p>July - Writes
+                  <u>The Summer Birds of the Adirondacks</u>
+                </p>
+              </li>
+            </ul>
+            <p><strong>1878</strong></p>
+            <ul>
+              <li>
+                <p>February 9 - Theodore Roosevelt Sr. dies from stomach cancer</p>
+              </li>
+              <li>
+                <p>October 18 - Meets Alice Hathaway Lee</p>
+              </li>
+            </ul>
+            <p><strong>1880</strong></p>
+            <ul>
+              <li>
+                <p>February 14 - Engaged to Alice Hathaway Lee</p>
+              </li>
+              <li>
+                <p>June 30 - Graduates from Harvard, magna cum laude</p>
+              </li>
+              <li>
+                <p>October 27 - Marries Alice Hathaway Lee on his 22<sup>nd</sup> birthday</p>
+              </li>
+              <li>
+                <p>December - Enters Columbia Law School (will discontinue in 1882 for political career)</p>
+              </li>
+              <li>
+                <p>Joins the Republican Party</p>
+              </li>
+            </ul>
+            <p><strong>1881</strong></p>
+            <ul>
+              <li>
+                <p>August - Climbs the Matterhorn while vacationing in Europe with Alice</p>
+              </li>
+              <li>
+                <p>November - Elected to the New York State Assembly (youngest ever elected to the office)</p>
+              </li>
+            </ul>
+            <p><strong>1882-83</strong></p>
+            <ul>
+              <li>
+                <p>Publishes first major literary work,
+                  <u>The Naval War of 1812</u>; book later becomes required reading at the Naval Academy in Annapolis</p>
+              </li>
+              <li>
+                <p>Continues to serve in New York State Assembly</p>
+              </li>
+              <li>
+                <p>August 1 - Joins the National Guard; commissioned a Second Lieutenant</p>
+              </li>
+              <li>
+                <p>January 1 - Elected Speaker of Republican Assembly (minority leader)</p>
+              </li>
+              <li>
+                <p>Prepares to head to Dakota Territory to hunt bison</p>
+              </li>
+            </ul>
+            <p><strong>1883</strong></p>
+            <ul>
+              <li>
+                <p>September 8 - Arrives in the town of Little Missouri in Dakota Territory; hires Joe Ferris as hunting guide.
+                  </p>
+              </li>
+              <li>
+                <p>September 23 - Returns to New York and Alice</p>
+              </li>
+            </ul>
+            <p><strong>1884</strong></p>
+            <ul>
+              <li>
+                <p>February 12 - First child, Alice Lee Roosevelt, born</p>
+              </li>
+              <li>
+                <p>Returns home after receiving telegram his wife and mother are ill</p>
+              </li>
+              <li>
+                <p>February 14 - Mother Martha Bulloch Roosevelt dies of typhoid fever; hours later, wife Alice Hathaway Lee
+                  Roosevelt dies from kidney failure</p>
+              </li>
+              <li>
+                <p>March - Commissions home to be built at Oyster Bay for his daughter</p>
+              </li>
+              <li>
+                <p>June 3 - Delegate to the Republican National Convention</p>
+              </li>
+
+              <li>
+                <p>August to September - Embarks on hunting trip to the Bighorn Mountains</p>
+              </li>
+              <li>
+                <p>October - Returns to New York to work on Blaine presidential campaign</p>
+              </li>
+              <li>
+                <p>November - Travels to Dakota Territory to help with Elkhorn construction</p>
+              </li>
+              <li>
+                <p>December - Helps organize the Little Missouri River Stockmen’s Association</p>
+              </li>
+              <li>
+                <p>Returns to New York before Christmas</p>
+              </li>
+            </ul>
+            <p><strong>1885</strong></p>
+            <ul>
+              <li>
+                <p>March - Finishes
+                  <u>Hunting Trips of a Ranchman</u>, first book on his western experiences</p>
+              </li>
+              <li>
+                <p>April - TR returns to Dakota Territory and his Elkhorn Ranch and stays for 2 months</p>
+              </li>
+              <li>
+                <p>May - Participates in spring roundup</p>
+              </li>
+              <li>
+                <p>June - Returns to New York after 32 days on the roundup</p>
+              </li>
+              <li>
+                <p>Sagamore Hill is completed</p>
+              </li>
+              <li>
+                <p>November - Secretly courting his childhood sweetheart, Edith Carow</p>
+              </li>
+            </ul>
+            <p><strong>1886</strong></p>
+            <ul>
+              <li>
+                <p>April - Acts as delegate to Montana Stock Growers Association</p>
+              </li>
+              <li>
+                <p>July 4 - Delivers speech in Dickinson (Dakota Territory) as Orator of the Day</p>
+              </li>
+              <li>
+                <p>August - Hunts mountain goats in Montana</p>
+              </li>
+              <li>
+                <p>November - Loses race for mayor of New York City</p>
+              </li>
+              <li>
+                <p>December 2 - Marries Edith Carow secretly in London</p>
+              </li>
+              <li>
+                <p>One of the worst winters in recorded history settles in over Dakota Territory</p>
+              </li>
+            </ul>
+            <p><strong>1887</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>Life of Thomas Hart Benton</u>, written mostly during his time at Elkhorn</p>
+              </li>
+              <li>
+                <p>April - Visits Dakota to survey cattle losses; over half of his herd lost over the winter</p>
+              </li>
+              <li>
+                <p>Begins to sell off interests in his cattle ranchers, ensuring his managers do not suffer a loss</p>
+              </li>
+              <li>
+                <p>Takes up residence at Sagamore Hill with Edith</p>
+              </li>
+              <li>
+                <p>September 13 - First son, Theodore Roosevelt Jr. is born at Sagamore Hill</p>
+              </li>
+            </ul>
+            <p><strong>1888</strong></p>
+            <ul>
+              <li>
+                <p>Publishes several books, including
+                  <u>Life of Gouverneur Morris</u>,
+                  <u>Ranch Life and the Hunting Trail</u>, and
+                  <u>Essays in Practical Politics</u>
+                </p>
+              </li>
+              <li>
+                <p>Briefly visits Dakota to hunt</p>
+              </li>
+            </ul>
+            <p><strong>1889</strong></p>
+            <ul>
+              <li>
+                <p>October 10 - Kermit Roosevelt born at Sagamore Hill</p>
+              </li>
+              <li>
+                <p>Publishes first two volumes of
+                  <u>The Winning of the West</u>
+                </p>
+              </li>
+              <li>
+                <p>May - Starts as U.S. Civil Service Commissioner in Washington, DC; holds position until 1895</p>
+              </li>
+              <li>
+                <p>Visits Dakota on a hunting trip</p>
+              </li>
+            </ul>
+            <p><strong>1890</strong></p>
+            <ul>
+              <li>
+                <p>September - Visits Elkhorn with Edith, sisters Anna and Corinne, and others; travel to Yellowstone</p>
+              </li>
+            </ul>
+            <p><strong>1891</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>History of New York</u>
+                </p>
+              </li>
+              <li>
+                <p>August 13 - Daughter Ethel Carow Roosevelt born at Sagamore Hill</p>
+              </li>
+              <li>
+                <p>Travels to Elkhorn to hunt</p>
+              </li>
+            </ul>
+            <p><strong>1892</strong></p>
+            <ul>
+              <li>
+                <p>Goes on inspection tour of Indian Reservations, and hunts at the Elkhorn</p>
+              </li>
+            </ul>
+            <p><strong>1893</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>The Wilderness Hunter</u>, final book about his western experiences</p>
+              </li>
+              <li>
+                <p>Visits Dakota on hunting trip</p>
+              </li>
+            </ul>
+            <p><strong>1894</strong></p>
+            <ul>
+              <li>
+                <p>April 10 - Son Archibald Bulloch Roosevelt born in Washington, DC</p>
+              </li>
+              <li>
+                <p>August 14 - Brother Elliott (father of Eleanor Roosevelt) dies</p>
+              </li>
+              <li>
+                <p>Travels to Dakota for a hunting trip</p>
+              </li>
+            </ul>
+            <p><strong>1895</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>Hero Tales from American History</u>, in collaboration with Henry Cabot Lodge</p>
+              </li>
+              <li>
+                <p>May 5 - Resigns Civil Service Commission to become Police Commissioner of New York City</p>
+              </li>
+              <li>
+                <p>May 6 - Elected President of the Board of Police Commissioners</p>
+              </li>
+            </ul>
+            <p><strong>1896</strong></p>
+            <ul>
+              <li>
+                <p>Throughout 1895-96, received national attention for police reforms in New York City</p>
+              </li>
+              <li>
+                <p>Goes hunting at Elkhorn Ranch</p>
+              </li>
+            </ul>
+            <p><strong>1897</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>American Ideals</u>
+                </p>
+              </li>
+              <li>
+                <p>April 19 - Appointed Assistant Secretary of the Navy by President William McKinley</p>
+              </li>
+              <li>
+                <p>November 19 - Son Quentin Roosevelt born in Washington, DC</p>
+              </li>
+            </ul>
+            <p><strong>1898</strong></p>
+            <ul>
+              <li>
+                <p>TR sells his final cattle interests in Dakota at outbreak of Spanish-American War</p>
+              </li>
+              <li>
+                <p>May 6 - Resigns as Assistant Secretary of the Navy to join 1<sup>st</sup> U.S. Volunteer Cavalry Regiment</p>
+              </li>
+              <li>
+                <p>Receives Lieutenant-Colonel commission and forms the "Rough Riders"</p>
+              </li>
+              <li>
+                <p>May to August - Serves in Cuba during Spanish-American War; promoted to Colonel</p>
+              </li>
+              <li>
+                <p>August 14 - The Rough Riders land at Montauk, Long Island, to begin a six-week quarantine</p>
+              </li>
+              <li>
+                <p>September 27 - Nominated by the Republican Party for Governor of New York State</p>
+              </li>
+              <li>
+                <p>November 8 - Elected Governor of New York State; serves until end of 1900</p>
+              </li>
+            </ul>
+            <p><strong>1900</strong></p>
+            <ul>
+              <li>
+                <p>Nominated to vice presidential Republican ticket, a position some considered a political graveyard</p>
+              </li>
+              <li>
+                <p>On a campaign stop in Medora, ND, declares “here the romance of my life began”</p>
+              </li>
+              <li>
+                <p>November 6 - Elected vice president</p>
+              </li>
+            </ul>
+            <p><strong>1901</strong></p>
+            <ul>
+              <li>
+                <p>March to September - Serves as vice president</p>
+              </li>
+              <li>
+                <p>September 6 - President McKinley shot while Roosevelt is hiking in the Adirondacks</p>
+              </li>
+              <li>
+                <p>September 14 - Becomes 26<sup>th</sup> President of the United States, youngest to ever hold the office</p>
+              </li>
+            </ul>
+            <p><strong>1902</strong></p>
+            <ul>
+              <li>
+                <p>February - Begins first of 45 antitrust suits to dissolve business monopolies</p>
+              </li>
+              <li>
+                <p>May 22 - Crater Lake National Park in Oregon established</p>
+              </li>
+            </ul>
+            <p><strong>1903</strong></p>
+            <ul>
+              <li>
+                <p>March - Establishes Pelican Island, FL as first federal bird reserve</p>
+              </li>
+              <li>
+                <p>November - Signs treaty with Panama for building of Panama Canal</p>
+              </li>
+            </ul>
+            <p><strong>1904-1905</strong></p>
+            <ul>
+              <li>
+                <p>Re-elected president</p>
+              </li>
+              <li>
+                <p>Establishes United States Forest Service</p>
+              </li>
+              <li>
+                <p>Establishes Wichita Forest, OK as first federal game preserve</p>
+              </li>
+              <li>
+                <p>Negotiates the Russo-Japanese peace treaty</p>
+              </li>
+            </ul>
+            <p><strong>1906</strong></p>
+            <ul>
+              <li>
+                <p>Establishes numerous national parks and monuments</p>
+              </li>
+              <li>
+                <p>November - Becomes first president to leave the country in a visit to Panama Canal</p>
+              </li>
+              <li>
+                <p>December - Awarded Nobel Peace Prize for mediating treaty of Russo-Japanese War</p>
+              </li>
+            </ul>
+            <p><strong>1908</strong></p>
+            <ul>
+              <li>
+                <p>May - First conference of governors convened at White House to discuss conservation</p>
+              </li>
+              <li>
+                <p>June - Appoints National Conservation Commission to inventory natural resources</p>
+              </li>
+            </ul>
+            <p><strong>1909</strong></p>
+            <ul>
+              <li>
+                <p>March - Presidency ends</p>
+              </li>
+              <li>
+                <p>In total, established 230 million acres of public lands</p>
+              </li>
+              <li>
+                <p>Public interest and celebrity increases after leaving office</p>
+              </li>
+            </ul>
+            <p><strong>1909</strong></p>
+            <ul>
+              <li>
+                <p>March - Departs for year-long African safari with son Kermit</p>
+              </li>
+              <li>
+                <p>Writes journal articles of adventures in Africa to be published in US magazine</p>
+              </li>
+            </ul>
+            <p><strong>1910</strong></p>
+            <ul>
+              <li>
+                <p>Accepts Nobel Peace Prize (from 1905) in Norway</p>
+              </li>
+              <li>
+                <p>June 18 - Returns to NY from Africa and Europe travels</p>
+              </li>
+              <li>
+                <p>Publishes
+                  <u>African Game Trails</u>, a complete book about his hunting safari</p>
+              </li>
+            </ul>
+            <p><strong>1911</strong></p>
+            <ul>
+              <li>
+                <p>Delivers speeches throughout 1910 and 1911, including one in Medora, ND</p>
+              </li>
+            </ul>
+            <p><strong>1912</strong></p>
+            <ul>
+              <li>
+                <p>February - Receives petition from Republican governors to accept nomination for president</p>
+              </li>
+              <li>
+                <p>June - Republican National Convention re-nominates incumbent Howard Taft</p>
+              </li>
+              <li>
+                <p>August - Convention of the new National Progressive party (nicknamed the “Bull Moose” party)</p>
+              </li>
+              <li>
+                <p>Nominated as presidential candidate for Progressive party</p>
+              </li>
+              <li>
+                <p>October 14 - Shot in the chest before campaign speech; finishes speech</p>
+              </li>
+              <li>
+                <p>November 5 - Despite receiving largest number of votes for a third-party candidate, loses presidential election
+                  to Woodrow Wilson
+                </p>
+              </li>
+            </ul>
+            <p><strong>1913</strong></p>
+            <ul>
+              <li>
+                <p>Publishes
+                  <u>Theodore Roosevelt - An Autobiography and History as Literature and Other Essays</u>
+                </p>
+              </li>
+              <li>
+                <p>October 4 - Sails for South America for lecture tour and jungle expedition</p>
+              </li>
+            </ul>
+            <p><strong>1914</strong></p>
+            <ul>
+              <li>
+                <p>February to April - Embarks on an expedition to explore an uncharted tributary of Amazon River</p>
+              </li>
+              <li>
+                <p>Sustains severe leg injury during expedition and nearly dies</p>
+              </li>
+              <li>
+                <p>May - Returns safely to New York</p>
+              </li>
+              <li>
+                <p>Publishes
+                  <u>Through the Brazilian Wilderness</u> and
+                  <u>Life Histories of African Game Animals</u>
+                </p>
+              </li>
+            </ul>
+            <p><strong>1916</strong></p>
+            <ul>
+              <li>
+                <p>June - Declines Progressive presidential nomination and backs Republican candidate</p>
+              </li>
+            </ul>
+            <p><strong>1917</strong></p>
+            <ul>
+              <li>
+                <p>February - Requests permission to raise infantry division "in the event of war;" request denied</p>
+              </li>
+              <li>
+                <p>Four sons enlist in military; daughter Ethel serves as a Red Cross nurse</p>
+              </li>
+            </ul>
+            <p><strong>1918</strong></p>
+            <ul>
+              <li>
+                <p>July 14 - Youngest son Quentin killed while serving as a fighter pilot in France</p>
+              </li>
+              <li>
+                <p>July - Refuses Republican nomination for Governor of New York</p>
+              </li>
+              <li>
+                <p>Publishes
+                  <u>The Great Adventure</u>
+                </p>
+              </li>
+              <li>
+                <p>Makes a train stop in Medora, ND</p>
+              </li>
+            </ul>
+            <p><strong>1919</strong></p>
+            <ul>
+              <li>
+                <p>January 6 - Dies in sleep at Sagamore Hill of a coronary embolism (arterial blood clot), age 60</p>
+              </li>
+            </ul>
+          </div>
+          <p class="link-box text-center">More information about <a class="btn-link" href="https://www.nps.gov/thro/learn/historyculture/theodore-roosevelt-timeline.htm">Theodore Roosevelt</a></p>
+        </div>
+      </div>
+    </div>
+    <p class="source-button"><a class="btn btn-primary btn-lg" href="https://github.com/texas2010/freecodecamp_tribute" target="_blank">My Source file</a></p>
+  </div>
+</body>
 </html>
